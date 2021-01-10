@@ -6,7 +6,7 @@ import Header from './components/Header';
 import MarketingApp from './components/MarketingApp';
 
 const generateClassName = createGenerateClassName({
-  productionPrefix: 'ma',
+  productionPrefix: 'con',
 });
 
 const App = () => {
