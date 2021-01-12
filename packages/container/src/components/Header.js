@@ -76,7 +76,7 @@ export default function Header({ isSignedIn, onSignOut }) {
             to={isSignedIn ? '/' : '/auth/signin'}
             onClick={onClick}
           >
-            {isSignedIn ? 'Logout' : 'Login'}
+            {isSignedIn ? 'Log out' : 'Login'}
           </Button>
         </Toolbar>
       </AppBar>
